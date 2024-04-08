@@ -1,0 +1,26 @@
+.teamCard {
+    position: relative;
+    height: 480px;
+}
+
+.teamCard::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.9);
+    content: "";
+    z-index: -1;
+    opacity: 0;
+    transition: all, 0.5s, ease-out, 0.5s;
+}
+
+.teamCard:hover:after {
+    opacity: 1;
+}
+
+.teamCard:hover p {
+    opacity: 1;
+    visibility: visible;
+}

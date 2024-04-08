@@ -1,0 +1,14 @@
+.readMore {
+    @apply relative font-semibold text-black text-14 pl-10 transition-all duration-500;
+}
+
+.readMore:after {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    height: 1px;
+    width: 30px;
+    background: #dfa667;
+    content: "";
+    transition: all, 0.5s;
+}

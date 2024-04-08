@@ -1,0 +1,15 @@
+.aboutPicInner::after {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    height: 600px;
+    width: 470px;
+    border: 15px solid rgba(185, 175, 134, 0.2);
+    content: "";
+}
+
+@media (max-width: 767px) {
+    .aboutPicInner::after {
+        display: none;
+    }
+}
