@@ -15,7 +15,7 @@ const ClientsSection = () => {
             {Array(6)
               .fill(0)
               .map((_, index) => (
-                <div>
+                <div key={index}>
                   <img className="mb-10" src={`/assets/images/logo/logo-${index + 1}.png`} />
                 </div>
               ))}

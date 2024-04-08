@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 import { Button } from '@components/Common';
 
 const CallToSection = () => {
@@ -14,11 +14,11 @@ const CallToSection = () => {
           OUR ABILITY TO DELIVER OUTSTANDING RESULTS FOR OUR CLIENTS STARTS WITH OUR TEAM OF SMART.
         </h1>
         <div className="flex justify-center">
-          <a href="/contact">
+          <Link href="/contact">
             <Button className="" color="white">
               Contact Us
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
