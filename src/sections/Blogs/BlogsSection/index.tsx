@@ -54,7 +54,7 @@ const BlogsSection = () => {
             }
             {
               new Array(Math.ceil(blogs.length / PAGE_SIZE)).fill(0).map((v, index) => (
-                <div onClick={() => setPage(index + 1)} className="border-2 border-transparent flex-center w-10 h-10 transition-all duration-300 ease-out hover:border-primary cursor-pointer">
+                <div key={index} onClick={() => setPage(index + 1)} className="border-2 border-transparent flex-center w-10 h-10 transition-all duration-300 ease-out hover:border-primary cursor-pointer">
                   <span className="text-black font-bold text-15">{index + 1}</span>
                 </div>
               ))
@@ -92,8 +92,8 @@ const BlogsSection = () => {
             <h4 className="text-black uppercase text-20 mb-6">Feature News</h4>
             <div className="flex flex-col gap-6">
               {
-                blogs.filter(blog => blog.featured).map((blog) => (
-                  <div className="flex gap-4">
+                blogs.filter(blog => blog.featured).map((blog, index) => (
+                  <div key={index} className="flex gap-4">
                     <img className="w-20 h-20" src={blog.image} />
                     <div>
                       <p className="text-black">
