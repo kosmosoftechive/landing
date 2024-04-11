@@ -33,6 +33,26 @@ const data = [
     name: 'Fasta',
     image: '/assets/images/project/project-p6.jpg',
   },
+  {
+    id: 7,
+    name: 'Suvie',
+    image: '/assets/images/project/project-p7.png',
+  },
+  {
+    id: 8,
+    name: 'Tixeltec',
+    image: '/assets/images/project/project-p8.png',
+  },
+  {
+    id: 9,
+    name: 'Braiins',
+    image: '/assets/images/project/project-p9.png',
+  },
+  {
+    id: 10,
+    name: 'HydraDX',
+    image: '/assets/images/project/project-p10.png',
+  },
 ];
 
 const ProjectListSection = () => {

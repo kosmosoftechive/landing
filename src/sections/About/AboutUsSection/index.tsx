@@ -9,9 +9,9 @@ const AboutUsSection = () => {
             <span>Who Are We</span>
             About Us
           </h1>
-          {/* <p className="md:-mt-8">
+          <p className="md:-mt-8">
             As you might expect of a company that began as a high-end interiors contractor.
-          </p> */}
+          </p>
         </div>
         <div className="col-span-1 md:col-span-2">
           <p>

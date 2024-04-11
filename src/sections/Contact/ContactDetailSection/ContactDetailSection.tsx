@@ -8,10 +8,10 @@ const ContactDetailSection = () => {
           <span>Information</span>
           Contact Details
         </h1>
-        {/* <p className="max-w-[450px]">
+        <p className="max-w-[450px]">
           As you might expect of a company that began as a high-end interiors contractor, we pay
           strict attention.
-        </p> */}
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-y-10">
           <div className="flex justify-between">
             <div className="flex gap-4 items-start">

@@ -33,10 +33,10 @@ export const Footer = () => {
             <div className="col-span-3 lg:col-span-4">
               <div className="w-50">
                 <img src="/assets/images/logo.svg" alt="Kosmos Softech Hive" />
-                <p className="my-7">
+                {/* <p className="my-7">
                   Jalan Taman Kopo Indah 3 No.D 75, Kabupaten Bandung, Provinsi Jawa Barat.
                 </p>
-                {/* <p className="mb-7">Info.colorlib@gmail.com<br/>+84 123 456 789</p> */}
+                <p className="mb-7">info@kosmosoftechive.com<br/>+6282216866725</p> */}
                 {/* <div className="flex gap-8">
                   <FacebookIcon className="text-white hover:text-primary transition-all duration-300 cursor-pointer" />
                   <TwitterIcon className="text-white hover:text-primary transition-all duration-300 cursor-pointer" />
@@ -60,16 +60,16 @@ export const Footer = () => {
             <div className="col-span-3 lg:col-span-2">
               <p className="text-white font-bold mb-7.5">Services</p>
               <div className="flex flex-col gap-3">
-                <Link href="">Architecture</Link>
-                <Link href="#">Web Development</Link>
-                <Link href="#">Mobile Development</Link>
-                <Link href="#">Planning</Link>
+                <span>Architecture</span>
+                <span>Web Development</span>
+                <span>Mobile Development</span>
+                <span>Planning</span>
               </div>
             </div>
             <div className="col-span-3 lg:col-span-4">
               <p className="text-white font-bold mb-7.5">Get In Touch</p>
               <div className="w-50">
-                {/* <p className="my-7">7176 Blue Spring Lane Santa Monica, CA 90403</p> */}
+                <p className="my-7">Jalan Taman Kopo Indah 3 No.D 75, Kabupaten Bandung, Provinsi Jawa Barat.</p>
                 <p className="mb-7">
                   info@kosmosoftechive.com
                   <br />

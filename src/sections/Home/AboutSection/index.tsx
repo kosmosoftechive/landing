@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import Link from 'next/link';
 
 import { Button } from '@components/Common';
 
@@ -22,7 +23,9 @@ const AboutSection = () => {
           <p className="mt-7 mb-15">
             Our commitment to excellence drives us to continuously evolve, ensuring that we remain at the forefront of technological advancements
           </p>
-          {/* <Button className="border-gray-100">Learn More</Button> */}
+          <Link href="/about">
+            <Button className="border-gray-100">Learn More</Button>
+          </Link>
         </div>
         <div>
           <div className={classnames('relative md:ml-8', styles.aboutPicInner)}>

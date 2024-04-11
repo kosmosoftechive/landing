@@ -30,11 +30,11 @@ const Index = () => {
         <div className="main-home-section pb-0">
           <HomeBanner />
           <AboutSection />
-          {/* <ProjectSection /> */}
+          <ProjectSection />
           <ServicesSection />
           <TeamSection />
           <CallToSection />
-          {/* <LatestNewsSection /> */}
+          <LatestNewsSection />
         </div>
       </div>
     </FullLayout>

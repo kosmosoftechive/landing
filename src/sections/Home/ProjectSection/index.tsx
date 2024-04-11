@@ -8,33 +8,33 @@ import 'slick-carousel/slick/slick-theme.css';
 const data = [
   {
     id: 1,
-    image: '/assets/images/project/project-1.jpg',
-    title: 'Interiors',
-    description: 'Lower River Street Astoria',
+    image: '/assets/images/project/project-p1.jpg',
+    title: 'Tradler',
+    description: 'Connect with your team, view individual progress, and celebrate achievements',
   },
   {
     id: 2,
-    image: '/assets/images/project/project-2.jpg',
-    title: 'Interiors',
-    description: 'Lower River Street Astoria',
+    image: '/assets/images/project/project-p2.jpg',
+    title: 'Frumatic',
+    description: 'Empower independent vehicle trading companies with the necessary techniques',
   },
   {
     id: 3,
-    image: '/assets/images/project/project-3.jpg',
-    title: 'Interiors',
-    description: 'Lower River Street Astoria',
+    image: '/assets/images/project/project-p3.jpg',
+    title: 'Dialiv',
+    description: 'Get tools and help to become healthier and reach your target weight',
   },
   {
     id: 4,
-    image: '/assets/images/project/project-4.jpg',
-    title: 'Interiors',
-    description: 'Lower River Street Astoria',
+    image: '/assets/images/project/project-p4.jpg',
+    title: 'FloodLightStudios',
+    description: 'Helping businesses to grow and compete in the digital era.',
   },
   {
     id: 5,
-    image: '/assets/images/project/project-3.jpg',
-    title: 'Interiors',
-    description: 'Lower River Street Astoria',
+    image: '/assets/images/project/project-p5.jpg',
+    title: 'QRMarketing',
+    description: 'Merge unique ID technologies, powerful no-code applications and cloud-based data analytics',
   },
 ];
 
@@ -109,8 +109,8 @@ const ProjectSection = () => {
             <div className="relative group ">
               <img src={slide.image} />
               <div className="absolute -bottom-35 group-hover:bottom-6 left-5 right-5 bg-white py-6 px-4 transition-all duration-300 ease-in-out">
-                <p className="uppercase text-primary text-center">{slide.title}</p>
-                <h3 className="text-20 uppercase text-black text-center">{slide.description}</h3>
+                <p className="uppercase text-20 pb-2 text-primary text-center">{slide.title}</p>
+                <h3 className="text-12 uppercase text-black text-center">{slide.description}</h3>
               </div>
             </div>
           </div>

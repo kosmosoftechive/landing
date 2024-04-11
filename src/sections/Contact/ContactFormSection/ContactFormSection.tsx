@@ -10,10 +10,10 @@ const ContactFormSection = () => {
           <span>Form</span>
           Get In Touch
         </h1>
-        {/* <p className="max-w-[450px]">
+        <p className="max-w-[450px]">
           As you might expect of a company that began as a high-end interiors contractor, we pay
           strict attention.
-        </p> */}
+        </p>
         <div className="mt-10 flex flex-col gap-8 max-w-[700px]">
           <div className="flex flex-col md:flex-row gap-8">
             <Input placeholder="Name" />

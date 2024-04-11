@@ -24,10 +24,10 @@ const menuList = [
   //   link: '/pages',
   //   label: 'Pages',
   // },
-  // {
-  //   link: '/blogs',
-  //   label: 'Blog',
-  // },
+  {
+    link: '/blogs',
+    label: 'Blog',
+  },
   {
     link: '/contact',
     label: 'Contact',

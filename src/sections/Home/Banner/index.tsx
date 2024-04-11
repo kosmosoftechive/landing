@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider, { CustomArrowProps } from 'react-slick';
+import Link from 'next/link';
 
 import { Button } from '@components/Common';
 import {
@@ -79,7 +80,9 @@ const HomeBanner = () => {
               <h1 className="text-24 md:text-36 lg:text-72 lg:leading-[80px] text-white text-center max-w-[840px] mx-auto mb-11">
                 {slide.heading}
               </h1>
-              {/* <Button color="white">See Project</Button> */}
+              <Link href="/projects">
+                <Button color="white">See Projects</Button>
+              </Link>
             </div>
           </div>
         ))}
