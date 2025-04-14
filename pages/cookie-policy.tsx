@@ -7,7 +7,7 @@ import ProjectDetailSection from '@sections/Projects/DetailSection';
 const TermsConditionsPage = () => {
   return (
     <FullLayout meta={<Meta />}>
-      <TopBanner title="Terms and Conditions"/>
+      <TopBanner title="Cookie Policy"/>
       <div className="p-10">
         <p className="pb-3"><strong>Effective Date:</strong> 01.06.2024</p>
 
