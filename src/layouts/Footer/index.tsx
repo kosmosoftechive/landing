@@ -80,9 +80,9 @@ export const Footer = () => {
           </div>
           <div className="py-6 mt-15 border-t border-gray-400 flex flex-col sm:flex-row items-center justify-between gap-y-4">
             <div className="flex items-center">Copyright © 2024 All rights reserved</div>
-            {/* <div className="flex items-center gap-3">
-              <Link href="#">Term of use</Link> | <Link href="#">Privacy Policy</Link>
-            </div> */}
+            <div className="flex items-center gap-3">
+              <Link href="/terms-conditions">Term and Conditions</Link> | <Link href="/privacy-policy">Privacy Policy</Link> | <Link href="/cookie-policy">Cookie Policy</Link>
+            </div>
           </div>
         </div>
       </section>
