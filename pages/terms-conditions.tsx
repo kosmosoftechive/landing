@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FullLayout, Meta } from '@layouts';
 import TopBanner from '@components/Common/TopBanner';
+import Link from 'next/link';
 import ProjectDetailSection from '@sections/Projects/DetailSection';
 
 const TermsConditionsPage = () => {
@@ -59,10 +60,10 @@ const TermsConditionsPage = () => {
         <p>Both parties agree to protect the confidentiality of any non-public information exchanged. This obligation remains even after the termination of services and shall not apply to information that is publicly known, independently developed, or legally disclosed.</p>
 
         <h2 className="pt-8">9. Privacy and Data Protection</h2>
-        <p>Our collection and use of personal data is governed by our <a href="/privacy-policy" className="underline">Privacy Policy</a>. We comply with applicable privacy laws including GDPR and CCPA where applicable. Users are responsible for securing their data and ensuring compliance with their own privacy obligations.</p>
+        <p>Our collection and use of personal data is governed by our <Link href="/privacy-policy" className="underline">Privacy Policy</Link>. We comply with applicable privacy laws including GDPR and CCPA where applicable. Users are responsible for securing their data and ensuring compliance with their own privacy obligations.</p>
 
         <h2 className="pt-8">10. Cookies and Tracking</h2>
-        <p>We use cookies and similar technologies to enhance your experience. You can manage your preferences through your browser settings. For more details, please refer to our <a href="/cookie-policy" className="underline">Cookie Policy</a>.</p>
+        <p>We use cookies and similar technologies to enhance your experience. You can manage your preferences through your browser settings. For more details, please refer to our <Link href="/cookie-policy" className="underline">Cookie Policy</Link>.</p>
 
         <h2 className="pt-8">11. Third-Party Services</h2>
         <p>We may use or integrate with third-party services (e.g., cloud providers, APIs, payment gateways). We are not responsible for the performance, security, or privacy practices of these services.</p>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FullLayout, Meta } from '@layouts';
 import TopBanner from '@components/Common/TopBanner';
+import Link from 'next/link';
 import ProjectDetailSection from '@sections/Projects/DetailSection';
 
 const TermsConditionsPage = () => {
@@ -11,7 +12,7 @@ const TermsConditionsPage = () => {
       <div className="p-10">
         <p className="pb-3"><strong>Effective Date:</strong> 01.06.2024</p>
 
-        <p>This Cookie Policy explains how Kosmos Softech Hive ("Company", "we", "us", or "our") uses cookies and similar technologies on our website (<a href="https://www.kosmosoftechive.com">www.kosmosoftechive.com</a>). This policy should be read in conjunction with our <a href="/privacy-policy" className="underline">Privacy Policy</a>.</p>
+        <p>This Cookie Policy explains how Kosmos Softech Hive ("Company", "we", "us", or "our") uses cookies and similar technologies on our website <Link href="https://www.kosmosoftechive.com" className="underline">www.kosmosoftechive.com</Link>. This policy should be read in conjunction with our <Link href="/privacy-policy">Privacy Policy</Link>.</p>
 
         <h2 className="pt-8">1. What Are Cookies?</h2>
         <p>Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently and to provide information to the owners of the site.</p>

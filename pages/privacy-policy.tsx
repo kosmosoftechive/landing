@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FullLayout, Meta } from '@layouts';
 import TopBanner from '@components/Common/TopBanner';
+import Link from 'next/link';
 import ProjectDetailSection from '@sections/Projects/DetailSection';
 
 const TermsConditionsPage = () => {
@@ -56,7 +57,7 @@ const TermsConditionsPage = () => {
         </ul>
 
         <h2 className="pt-8">5. Cookies and Tracking Technologies</h2>
-        <p>We use cookies, web beacons, and similar technologies to improve your experience. You can manage your cookie preferences in your browser settings. See our <a href="/cookie-policy" className="underline">Cookie Policy</a> for details.</p>
+        <p>We use cookies, web beacons, and similar technologies to improve your experience. You can manage your cookie preferences in your browser settings. See our <Link href="/cookie-policy" className="underline">Cookie Policy</Link> for details.</p>
 
         <h2 className="pt-8">6. Data Retention</h2>
         <p>We retain your personal data only as long as necessary for the purposes described in this policy, or as required by law. Once no longer needed, it will be securely deleted or anonymized.</p>
