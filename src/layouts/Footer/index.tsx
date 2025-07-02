@@ -69,7 +69,9 @@ export const Footer = () => {
             <div className="col-span-3 lg:col-span-4">
               <p className="text-white font-bold mb-7.5">Get In Touch</p>
               <div className="w-50">
-                <p className="my-7">Jalan Taman Kopo Indah 3 No.D 75, Kabupaten Bandung, Provinsi Jawa Barat.</p>
+                <p className="my-7">
+                  Jalan Taman Kopo Indah 3 No.D 75, Kabupaten Bandung, Provinsi Jawa Barat.
+                </p>
                 <p className="mb-7">
                   info@kosmosoftechive.com
                   <br />
@@ -79,9 +81,11 @@ export const Footer = () => {
             </div>
           </div>
           <div className="py-6 mt-15 border-t border-gray-400 flex flex-col sm:flex-row items-center justify-between gap-y-4">
-            <div className="flex items-center">Copyright © 2024 All rights reserved</div>
+            <div className="flex items-center">Copyright © 2025 All rights reserved</div>
             <div className="flex items-center gap-3">
-              <Link href="/terms-conditions">Term and Conditions</Link> | <Link href="/privacy-policy">Privacy Policy</Link> | <Link href="/cookie-policy">Cookie Policy</Link>
+              <Link href="/terms-conditions">Term and Conditions</Link> |{' '}
+              <Link href="/privacy-policy">Privacy Policy</Link> |{' '}
+              <Link href="/cookie-policy">Cookie Policy</Link>
             </div>
           </div>
         </div>
